@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+.imc1{
+    color: #e20d0d;
+    text-align: center;
+    font-size: 56px;
+
+}
+h1{
+   color: rgb(7, 7, 7); 
+}
+p{
+    color: #000000;
+}
+.marco-calculadora{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height:40vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+}
+.salida{
+    grid-column: 1/-1;
+    background-color:red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.marco-calculadora > button{
+    grid-column: 1 / -1;
+    height: 45px;
+    cursor: pointer;
+    font-size: 1.70rem;
+    border: 3px solid rgb(1, 1, 1);
+    outline: none;
+    background-color: blueviolet;
+}
+.marco-calculadora > button:hover{
+    background-color: chartreuse;
+}
+.pantalla{
+    color: black;
+    font-size: 1.85rem;
+    text-align: right;
+
+}
+.ims{
+    color: #020202;
+    font-size: 23px;
+    text-align:center;
+    
+}
+.img1{
+    height: 50px;
+    text-align: right;
+    margin-right: 30px;
+    color: #3711b1;
+    
+    
+}
+.img2{
+    height: 10px;
+    margin-left: 30px;
+    
+    
+}
+.texto{
+    margin: 100px;
+}
+.img3{
+    text-align: center;
+}
+.titulo1{
+background-color: #3711b1;
+}
